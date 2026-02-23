@@ -15,7 +15,7 @@ date: 2026-02-23
 - להבין איך דברים עובדים
 
 ## קטע קוד 
-<div style="direction: ltr; text-align: left;">
+<div style="direction: ltr; text-align: left; unicode-bidi: embed;">
 <pre><code class="language-js">
 function hello() {
   console.log("שלום עולם!");
