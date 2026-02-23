@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  line-height: 1.8;
+}
+
+/* קישורים */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: #161b22;
+  padding: 1.5rem;
+  border-bottom: 1px solid #30363d;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Post */
+.post-date {
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  margin-top: 1.5rem;
+}
+
+/* Code */
+pre {
+  background: #161b22;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+code {
+  font-family: monospace;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #30363d;
+  margin-top: 3rem;
+  color: #8b949e;
+}
+
+/* רשימת פוסטים */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 1rem;
+}
+
+.post-list .date {
+  display: block;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
