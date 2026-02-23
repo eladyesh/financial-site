@@ -20,3 +20,4 @@ date: 2026-02-23
 function hello() {
   console.log("שלום עולם!");
 }
+```
