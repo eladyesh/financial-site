@@ -14,10 +14,11 @@ date: 2026-02-23
 - מתמטיקה
 - להבין איך דברים עובדים
 
-## קטע קוד לדוגמה
-
-```js
+## קטע קוד 
+<div style="direction: ltr; text-align: left;">
+<pre><code class="language-js">
 function hello() {
   console.log("שלום עולם!");
 }
-```
+</code></pre>
+</div>
