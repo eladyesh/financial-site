@@ -17,9 +17,13 @@ date: 2026-02-23
 ## קטע קוד 
 <!-- LTR wrapper around the code block -->
 <div style="direction: ltr; text-align: left; unicode-bidi: embed;">
-<pre><code class="language-js">
+{% highlight js %}
 function hello() {
-  console.log("שלום עולם!");
+  const greeting = "שלום עולם!";
+  console.log(greeting);
+  for (let i = 0; i < 3; i++) {
+    console.log(i);
+  }
 }
-</code></pre>
+{% endhighlight %}
 </div>
