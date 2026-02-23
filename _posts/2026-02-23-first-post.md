@@ -15,10 +15,11 @@ date: 2026-02-23
 - להבין איך דברים עובדים
 
 ## קטע קוד 
+<!-- LTR wrapper around the code block -->
 <div style="direction: ltr; text-align: left; unicode-bidi: embed;">
-<pre><code class="language-js">
+{% highlight js %}
 function hello() {
   console.log("שלום עולם!");
 }
-</code></pre>
+{% endhighlight %}
 </div>
