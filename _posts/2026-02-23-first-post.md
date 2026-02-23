@@ -16,14 +16,26 @@ date: 2026-02-23
 
 ## קטע קוד 
 <!-- LTR wrapper around the code block -->
-<div style="direction: ltr; text-align: left; unicode-bidi: embed;">
-{% highlight js %}
+<div style="
+  direction: ltr; 
+  text-align: left; 
+  unicode-bidi: embed; 
+  display: block; 
+  background: #f5f5f5; 
+  padding: 1em; 
+  border-radius: 6px; 
+  overflow-x: auto; 
+  font-family: monospace; 
+  color: #333;
+  white-space: pre;
+">
+<code style="
+  display: block;
+  font-family: monospace;
+  color: #000;
+">
 function hello() {
-  const greeting = "שלום עולם!";
-  console.log(greeting);
-  for (let i = 0; i < 3; i++) {
-    console.log(i);
-  }
+  console.log("שלום עולם!");
 }
-{% endhighlight %}
+</code>
 </div>
