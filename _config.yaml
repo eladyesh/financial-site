@@ -1,1 +1,17 @@
+title: הבלוג של אלון
+description: בלוג פיננסי וטכנולוגי בעברית
 
+url: "https://eladyesh.github.io"
+baseurl: "/financial-site"
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+timezone: Asia/Jerusalem
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
